@@ -92,6 +92,7 @@
             <div class="widebox-content">
                 <h2>Klädsel</h2>
                 <p>Det kommer vara varmt, vi menar jättevarmt, så vi föreslår att kläderna ni bär är ljusa, lätta och är av ett material som släpper in luft. Under fredagen och söndagen är det helt fritt fram att ha på sig vad man vill, glöm inte att packa badkläder! Under lördagen, från ceremonin och framåt önskar vi att man klär upp sig extra fint – för nu är det fest!</p>
+                <img src="./assets/branch.png" alt="" style="">
                 <p>Vad innebär extra fint? Vi skippar shorts och håller oss till långbyxor och klänningar, inga krav finns på kavaj, slips, fluga etc. Vi kan rekommendera att inte ha stilettklackar då vi kommer gå på både grus och gräs.</p>
         
             </div>
@@ -142,8 +143,8 @@ export default {
     data() {
         return {
             castle: { 
-                width: '450px',
-                height: '300px',
+                width: '550px',
+                height: '350px',
                 images:[
                     '/src/assets/slider/1.jpg',
                     '/src/assets/slider/2.jpg',
@@ -247,10 +248,10 @@ section.white {
 }
 
 .box.branches {
-    /*background-image: url(./assets/branch.png), url(./assets/branch.png);
-    background-position: right center, left center;
+    background-image: url(./assets/wedding-border-left.png), url(./assets/wedding-border-right.png);
+    background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    background-origin: 10px, 10px;*/
+    background-origin: 100px, 10px;
 }
 
 .box {

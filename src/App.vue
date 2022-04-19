@@ -31,21 +31,21 @@
             <h1>Program</h1>
             <div style="display: flex;justify-content: space-between;">
                 <div style="text-align: left">
-                    <h4>Dag1</h4>
+                    <h4>Dag 1</h4>
                     <i>Fredag 29 Juli</i>
                     <p>16:00 Checkin</p>
                     <p>17:00 Välkomstdrink</p>
                     <p>19:00 Middag</p>
                 </div>
                 <div style="text-align: left">
-                    <h4>Dag2</h4>
+                    <h4>Dag 2</h4>
                     <i>Lördag 30 Juli</i>
                     <p>9:00 Frukost</p>
                     <p>12:00 Vigsel</p>
                     <p>19:00 Middag</p>
                 </div>
                 <div style="text-align: left">
-                    <h4>Dag3</h4>
+                    <h4>Dag 3</h4>
                     <i>Söndag 31 Juli</i>
                     <p>09:00 Frukost</p>
                     <p>10:00 Poolparty</p>
@@ -202,7 +202,7 @@ export default {
 
 }
 html, body {
-    margin: 0;  
+    margin: 0;
 }
 a { color: var(--link-color); text-decoration: none;}
 a:hover { color: var(--link-color-hover);}
@@ -224,7 +224,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
+    padding: 0 10px;
 }
 
 section.start {
@@ -277,10 +277,15 @@ section.white {
 }
 
 footer a {
-    background: var(--offwhite);
-    padding: 2px;
+    background: rgba(248,248,248,0.8);
+    padding: 3px 12px;
     border-radius: 4px;
-    margin: 0 2px; 
+    margin: 0 2px;
+    letter-spacing: 1px; 
+    color: var(--link-color-hover)
+}
+footer:hover a {
+    background: rgba(248,248,248,1);
 }
 
 h1, h2, h3, h4, h5 {

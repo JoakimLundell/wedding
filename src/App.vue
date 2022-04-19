@@ -92,7 +92,7 @@
             <div class="widebox-content">
                 <h2>Klädsel</h2>
                 <p>Det kommer vara varmt, vi menar jättevarmt, så vi föreslår att kläderna ni bär är ljusa, lätta och är av ett material som släpper in luft. Under fredagen och söndagen är det helt fritt fram att ha på sig vad man vill, glöm inte att packa badkläder! Under lördagen, från ceremonin och framåt önskar vi att man klär upp sig extra fint – för nu är det fest!</p>
-                <img src="./assets/branch.png" alt="" style="">
+                <img src="./assets/branch.png" alt="" style="margin: 20px 0;">
                 <p>Vad innebär extra fint? Vi skippar shorts och håller oss till långbyxor och klänningar, inga krav finns på kavaj, slips, fluga etc. Vi kan rekommendera att inte ha stilettklackar då vi kommer gå på både grus och gräs.</p>
         
             </div>
@@ -194,16 +194,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: silver;
+  background:  white;
   background-image: url("assets/italian-wedding.jpg");
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
+  background-position:  center;
 }
+
 html, body {
     margin: 0;
 }
+
 a { color: var(--link-color); text-decoration: none;}
 a:hover { color: var(--link-color-hover);}
 :root {
